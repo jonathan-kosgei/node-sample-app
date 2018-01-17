@@ -3,10 +3,9 @@
        // never resolves or rejects
     })
 */
-function * makeCounter () {
-  let i = 0;
-  while (true) {
-    yield ++i;
-  }
+
+var num = 0
+while (true) {
+    console.log(num);
+    num++
 }
-makeCounter()
